@@ -1,0 +1,102 @@
+# 📚 Sistema de Recomendación Semántica de Libros
+
+Un sistema de recomendación de libros end-to-end que utiliza análisis semántico de descripciones y géneros literarios para ofrecer recomendaciones personalizadas.
+
+![Nube de palabras de libros](images/eda/nube_palabras_general.png)
+
+## 🌟 Características
+
+- **Análisis exploratorio de datos** de una extensa colección de libros
+- **Procesamiento de texto y análisis semántico** de descripciones y géneros
+- **Visualización interactiva** de patrones y relaciones entre libros
+- **Sistema de recomendación multimodal** que permite búsqueda por:
+  - Texto (títulos, autores, descripciones)
+  - Géneros literarios
+  - Imágenes de portadas (próximamente)
+- **Interfaz de usuario intuitiva** para explorar recomendaciones
+
+## 🛠️ Tecnologías
+
+- **Backend**: Python, pandas, NumPy, NLTK
+- **Análisis de datos**: Matplotlib, Seaborn, WordCloud
+- **Modelos de ML/IA**: Transformers, OpenAI
+- **Frontend**: Gradio (próximamente)
+- **Despliegue**: GitHub Pages (próximamente)
+
+## 📊 Análisis Exploratorio de Datos
+
+El proyecto incluye un análisis exhaustivo del dataset "Best Books Ever" que contiene información sobre miles de libros populares:
+
+- Distribución de géneros literarios
+- Análisis de frecuencia de palabras en descripciones
+- Relaciones entre calificaciones, popularidad y características de los libros
+- Visualizaciones específicas por género
+
+## 🔍 Enfoque del Sistema de Recomendación
+
+El sistema utiliza técnicas avanzadas de procesamiento de lenguaje natural para entender la semántica de las descripciones de libros y las preferencias de los usuarios:
+
+1. **Análisis de contenido**: Extracción de características semánticas de las descripciones
+2. **Filtrado basado en géneros**: Identificación de patrones en las preferencias de géneros
+3. **Similitud semántica**: Cálculo de similitud entre libros basado en su contenido
+4. **Recomendaciones personalizadas**: Sugerencias adaptadas a los intereses del usuario
+
+## 🚀 Instalación y Uso
+bash
+Clonar el repositorio
+git clone https://github.com/tu-usuario/semantic-book-recommender.git
+cd semantic-book-recommender
+Crear entorno virtual
+python -m venv book_recommender_env
+source book_recommender_env/bin/activate # En Windows: book_recommender_env\Scripts\activate
+Instalar dependencias
+pip install -r requirements.txt
+Ejecutar el notebook de análisis exploratorio
+jupyter notebook notebooks/data-exploration.ipynb
+Iniciar la interfaz de usuario (próximamente)
+python src/app.py
+
+## 📁 Estructura del Proyecto
+semantic-book-recommender/
+├── data/ # Datasets
+│ ├── Best_Books_Dataset.csv
+│ └── books_clean.csv
+├── images/ # Visualizaciones generadas
+│ └── eda/
+├── notebooks/ # Jupyter notebooks
+│ └── data-exploration.ipynb
+├── src/ # Código fuente
+│ ├── preprocessing.py # Procesamiento de datos
+│ ├── recommender.py # Sistema de recomendación
+│ └── app.py # Interfaz de usuario
+├── .gitignore
+├── README.md
+└── requirements.txt
+
+
+## 📈 Resultados y Visualizaciones
+
+El análisis exploratorio ha revelado patrones interesantes en los datos:
+
+- Los géneros más populares son Fiction, Fantasy, Romance, Young Adult y Historical Fiction
+- Palabras como "life", "world", "story" y "love" son las más frecuentes en las descripciones
+- Existe una correlación entre la longitud de las descripciones y las calificaciones de los libros
+
+## 🔮 Próximos Pasos
+
+- Implementación de búsqueda por imagen de portadas
+- Desarrollo de una interfaz web más completa
+- Integración con APIs de tiendas de libros
+- Funcionalidades sociales para compartir recomendaciones
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+## 👥 Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, abre un issue para discutir los cambios propuestos o envía un pull request directamente.
+
+## 📧 Contacto
+
+[Tu Nombre](info.ivancm@gmail.com) - [LinkedIn](https://www.linkedin.com/in/iv%C3%A1n-castro-mart%C3%ADnez-293b9414a/)

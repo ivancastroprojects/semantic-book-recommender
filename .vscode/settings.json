@@ -1,0 +1,5 @@
+{
+    "dataWrangler.experiments.autoDetectCsvDelimiter": true,
+    "dataWrangler.experiments.datatypes.pyspark": true,
+    "dataWrangler.experiments.fastCsvParsing": true
+}
