@@ -5,6 +5,8 @@ datasets/books_cleaned.csv filter=lfs diff=lfs merge=lfs -text
 *.pkl filter=lfs diff=lfs merge=lfs -text
 data/datasets/tagged_description.txt filter=lfs diff=lfs merge=lfs -text
 data/datasets/* filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.webp filter=lfs diff=lfs merge=lfs -text
 *.dockerignore filter=lfs diff=lfs merge=lfs -text
 *.env filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
@@ -14,9 +16,7 @@ data/datasets/* filter=lfs diff=lfs merge=lfs -text
 /README filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
 *.ipynb filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
-*.webp filter=lfs diff=lfs merge=lfs -text
 *.py filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
 *.yml filter=lfs diff=lfs merge=lfs -text
