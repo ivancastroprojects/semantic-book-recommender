@@ -1,10 +1,11 @@
 # 📚 Semantic Book Recommender: Technical Deep Dive
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 An end-to-end semantic book recommendation system leveraging vector embeddings (`sentence-transformers`), approximate nearest neighbor search (FAISS), and generative AI (Google Gemini/Vertex AI) for personalized analysis and content generation, wrapped in an interactive Gradio web UI.
 
-![Application Screenshot](./assets/screenshot-recommender.png)
-
-[🎬 Watch the Application Demo Video](https://drive.google.com/file/d/138ioFt1HbPh65Qj84gDxkFafTE9iEdC-/view?usp=sharing)
+[![Application Screenshot and Demo Video](assets/screenshot-recommender.png)](https://drive.google.com/file/d/138ioFt1HbPh65Qj84gDxkFafTE9iEdC-/view?usp=sharing)
+*Click the image above to watch the application demo video.*
 
 **(For a comprehensive architecture overview, data flow diagrams, and UML, please refer to the [**TECHNICAL_DOCUMENTATION.md**](TECHNICAL_DOCUMENTATION.md))**
 
