@@ -2,7 +2,7 @@
 
 An end-to-end semantic book recommendation system leveraging vector embeddings (`sentence-transformers`), approximate nearest neighbor search (FAISS), and generative AI (Google Gemini/Vertex AI) for personalized analysis and content generation, wrapped in an interactive Gradio web UI.
 
-![Application Screenshot](assets/screenshot-recommender.png)
+![Application Screenshot](./assets/screenshot-recommender.png)
 
 [🎬 Watch the Application Demo Video](https://drive.google.com/file/d/138ioFt1HbPh65Qj84gDxkFafTE9iEdC-/view?usp=sharing)
 
