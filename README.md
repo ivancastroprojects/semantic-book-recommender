@@ -97,12 +97,14 @@ README.md                   # This file
 **Steps:**
 
 1.  **Clone the Repository:**
+    
     ```bash
-    git clone https://github.com/ivancastroprojects/semantic-book-recommender.git # Use your repo URL
+    git clone https://github.com/ivancastroprojects/semantic-book-recommender.git
     cd semantic-book-recommender
     ```
 
 2.  **Set up Virtual Environment (Recommended):**
+    
     ```bash
     python -m venv venv
     # Linux/macOS: source venv/bin/activate
@@ -110,6 +112,7 @@ README.md                   # This file
     ```
 
 3.  **Install Dependencies:**
+    
     ```bash
     pip install -r requirements.txt
     ```
@@ -117,6 +120,7 @@ README.md                   # This file
 4.  **Configure Environment Variables:**
     *   Copy or rename `.env.example` to `.env`.
     *   Edit `.env` and add your actual API keys and configuration:
+        
         ```dotenv
         # --- REQUIRED for AI features ---
         GOOGLE_API_KEY="YOUR_GEMINI_API_KEY"
@@ -135,7 +139,8 @@ README.md                   # This file
     *   *(Add download instructions here if the dataset isn't included)*.
 
 6.  **Run the Application:**
-```bash
+    
+    ```bash
     python gradio_dashboard.py
     ```
     *   **Important Note:** The **first time** you run the application, it will generate the FAISS vector index from the dataset. This process involves downloading the embedding model and processing all book descriptions. **It can take several minutes** (5-20+ min depending on dataset size and CPU speed). Subsequent launches will be much faster as they load the pre-built index.
