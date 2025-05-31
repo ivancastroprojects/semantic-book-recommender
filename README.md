@@ -1,6 +1,15 @@
 # 📚 Semantic Book Recommender: Technical Deep Dive
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Gradio](https://img.shields.io/badge/Gradio-Interface-FF4B4B?logo=gradio&logoColor=white)](https://gradio.app/)
+[![LangChain](https://img.shields.io/badge/LangChain-Framework-00A67E?logo=langchain&logoColor=white)](https://python.langchain.com/)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow?logo=huggingface&logoColor=white)](https://huggingface.co/)
+[![FAISS](https://img.shields.io/badge/FAISS-Vector%20DB-00A67E?logo=facebook&logoColor=white)](https://github.com/facebookresearch/faiss)
+[![Google Gemini](https://img.shields.io/badge/Google%20Gemini-AI%20Model-4285F4?logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
+[![Vertex AI](https://img.shields.io/badge/Vertex%20AI-Cloud%20AI-4285F4?logo=google-cloud&logoColor=white)](https://cloud.google.com/vertex-ai)
+[![Sentence Transformers](https://img.shields.io/badge/Sentence%20Transformers-Embeddings-FF4B4B?logo=pytorch&logoColor=white)](https://www.sbert.net/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Python-dotenv](https://img.shields.io/badge/python--dotenv-Config-3776AB?logo=python&logoColor=white)](https://pypi.org/project/python-dotenv/)
 
 An end-to-end semantic book recommendation system leveraging vector embeddings (`sentence-transformers`), approximate nearest neighbor search (FAISS), and generative AI (Google Gemini/Vertex AI) for personalized analysis and content generation, wrapped in an interactive Gradio web UI.
 
