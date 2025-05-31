@@ -4,7 +4,8 @@
 
 An end-to-end semantic book recommendation system leveraging vector embeddings (`sentence-transformers`), approximate nearest neighbor search (FAISS), and generative AI (Google Gemini/Vertex AI) for personalized analysis and content generation, wrapped in an interactive Gradio web UI.
 
-[<img src="https://raw.githubusercontent.com/ivancastroprojects/semantic-book-recommender/main/assets/gifrecommenderbooks.gif" alt="Application Demo GIF" width="600"/>](https://drive.google.com/file/d/138ioFt1HbPh65Qj84gDxkFafTE9iEdC-/view?usp=sharing)
+[<img src="https://raw.githubusercontent.com/ivancastroprojects/semantic-book-recommender/main/assets/gifrecommenderbooks.gif" alt="Application Demo GIF" width="800"/>](https://drive.google.com/file/d/138ioFt1HbPh65Qj84gDxkFafTE9iEdC-/view?usp=sharing)
+
 *Haz clic en el GIF para ver el video demo completo.*
 
 **(For a comprehensive architecture overview, data flow diagrams, and UML, please refer to the [**TECHNICAL_DOCUMENTATION.md**](TECHNICAL_DOCUMENTATION.md))**
